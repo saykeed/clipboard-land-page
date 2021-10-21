@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapcon{
+    background: url(images/bg-header-mobile.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#head_logo{
+    width: 70px;
+    margin: 20px 0;
+}
+
+/*colours for d h1 tags and p elements*/
+
+#header h1, #header h3{
+    color: hsl(210, 10%, 33%);
+    
+}
+
+#header p{
+    color: hsl(201, 11%, 66%);
+    margin: 15px 0;
+}
+
+
+/* styling for d buttons */
+#links{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+#links a{
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+#links a#ios{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 4px 3px hsl(171, 75%, 34%);
+}
+
+#links a#mac{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 4px 3px hsl(233, 58%, 54%);
+}
+
+
+/* styling for d first row section*/
+#row1{
+    display: flex;
+    align-items: center;
+}
+
+#row1col{
+    text-align: center;
+}
+
+#row1col img{
+    width: 100%;
+    margin: 30px 0;
+}
+#features{
+    margin: 20px 0;
+}
+
+#features h6{
+    color: hsl(210, 10%, 33%);
+}
+
+#features p{
+    color: hsl(201, 11%, 66%);
+}
+
+
+/* styling for d access & supercharge section*/
+
+#access_section{
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0;
+}
+
+#access_section h3{
+    color: hsl(210, 10%, 33%);
+}
+
+#access_section p{
+    color: hsl(201, 11%, 66%);
+}
+
+#access_section img{
+    width: 100%;
+    margin: 50px 0;
+}
+
+/* styling for d first row section (contains other features) */
+#row2{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#row2col{
+    margin: 20px auto;
+}
+
+#row2col img{
+    width: 40px;
+    margin-bottom: 30px;
+}
+
+#row2col h6{
+    color: hsl(210, 10%, 33%);
+}
+
+#row2col p{
+    color: hsl(201, 11%, 66%);
+}
+
+
+/* styling for d partners section */
+
+#partners{
+    margin: 20px auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#partners img{
+    width: 100px;
+    height: auto;
+    margin: 20px 0;
+}
+
+/*styling for d end credit section*/
+#end_credit{
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+#end_credit h3{
+    color: hsl(210, 10%, 33%);
+}
+
+#end_credit p{
+    color: hsl(201, 11%, 66%);
+}
+
+/*styling for d footer section*/
+#wrap_foot{
+    background: hsla(202, 11%, 66%, 0.172);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#footer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#footer_img{
+    width: 60px;
+    margin: 40px 0;
+}
+
+#footer_links div a{
+    text-decoration: none;
+    width: fit-content;
+    color: hsl(201, 11%, 66%);
+    margin: 12px auto;
+    font-weight: 700;
+}
+
+#footer_links div a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+#social_but{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#social_but a{
+    width: 30px;
+    padding: 12px;
+    margin: 0 5px;
+}
+
+#social_but a:hover{
+    fill: hsl(171, 66%, 44%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*for the responsieve screen of sm and above*/
+@media screen and (min-width:578px){
+    
+}
+    
+
+/*for the responsieve screen of md and above */
+@media screen and (min-width:768px){
+    #links{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #links a{
+        width: 200px;
+        margin: 10px;
+        padding: 10px 15px;
+    }
+
+    #row1col{
+        text-align: left;
+        
+    }
+
+    #features{
+        width: 330px;
+        margin: 10px 30px;
+    }
+
+    #partners{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /* styling for d footer section*/
+    #footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+    }
+
+    #img_link{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+    }
+
+    #footer_img{
+        width: 40px;
+        margin: 0;
+    }
+
+    #footer_links{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+    }
+
+    #footer_links div {
+        margin: 0 20px;
+    }
+
+    #footer_links div a{
+        margin: 3px 0;
+    }
+
+    #social_but{
+        margin: 0;
+    }
+    
+
+}
+
+
+
+
+/*for the responsieve screen of lg and above */
+@media screen and (min-width:992px){
+    #wrapcon{
+        background: url(images/bg-header-desktop.png);
+        background-size: cover;
+        background-position: center;
+    }
+}
